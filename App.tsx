@@ -8,7 +8,8 @@
 
 import React from 'react'
 import { Component } from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -25,6 +26,10 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to Reat Native!</Text>
         <Text style={styles.instructions}>To get started, edit A.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
+
+        <Icon.Button name="facebook" backgroundColor="#3b5998" onPress={() => { }}>
+          Login with Facebook
+        </Icon.Button>
       </View>
     );
   }
