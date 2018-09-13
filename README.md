@@ -8,7 +8,7 @@ rn 项目模版
 ### react-native-vector-icons
 [官网](https://github.com/oblador/react-native-vector-icons) 
 - ios：1.react-native link react-native-vector-icons  2. 重新启动App,npm start && react-native run-ios
-- android: 1.app/gradle 添加 ```apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"````
+- android: 1.app/gradle 添加 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle" 
 
 
 ### CodePush
