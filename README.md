@@ -11,6 +11,12 @@ rn 项目模版
 - android: 1.app/gradle 添加 ```apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"````
 
 
-### codepush
+### CodePush
 参考[中文github](https://github.com/Microsoft/code-push/blob/master/cli/README-cn.md)教程
+
+###  LargeList 
+[官网](https://bolan9999.github.io/react-native-largelist/#/GettingStart)
+- 解决flatlist 在数据较多的情况下性能问题
+- 封装下拉刷新，上拉加载
+- 粘性头部
 

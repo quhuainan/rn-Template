@@ -2333,6 +2333,10 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.1.1"
 
+hoist-non-react-statics@^2.3.1:
+  version "2.5.5"
+  resolved "http://192.168.16.245:4873/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "http://192.168.16.245:4873/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -4119,6 +4123,22 @@ react-devtools-core@^3.2.2:
 react-is@^16.4.1:
   version "16.5.0"
   resolved "http://192.168.16.245:4873/react-is/-/react-is-16.5.0.tgz#2ec7c192709698591efe13722fab3ef56144ba55"
+
+react-native-gesture-handler@^1.0.7:
+  version "1.0.7"
+  resolved "http://192.168.16.245:4873/react-native-gesture-handler/-/react-native-gesture-handler-1.0.7.tgz#86677c709c42d04555210cad9759b09e2c657720"
+  dependencies:
+    hoist-non-react-statics "^2.3.1"
+    invariant "^2.2.2"
+    prop-types "^15.5.10"
+
+react-native-largelist-v2@^2.0.2:
+  version "2.0.2"
+  resolved "http://192.168.16.245:4873/react-native-largelist-v2/-/react-native-largelist-v2-2.0.2.tgz#8d4b9b94208426ee35fc1d64bddf35fc24588b69"
+
+react-native-spring-scrollview@^0.0.23:
+  version "0.0.23"
+  resolved "http://192.168.16.245:4873/react-native-spring-scrollview/-/react-native-spring-scrollview-0.0.23.tgz#6b64f11a2ad35d107f0f924bee83cf64783aa99c"
 
 react-native-typescript-transformer@^1.2.10:
   version "1.2.10"
